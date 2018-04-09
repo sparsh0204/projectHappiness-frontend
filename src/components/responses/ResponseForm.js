@@ -1,12 +1,13 @@
 import React from 'react';
 import {Button, Checkbox, Form, Message, Segment, TextArea} from "semantic-ui-react";
 import {Link} from "react-router-dom";
-import {addStory} from "../../actions/stories";
+import {addResponse} from "../../actions/responses";
 import {connect} from "react-redux";
 
-class ShareStory extends React.Component {
+class ResponseForm extends React.Component{
     state = {
-        story: '',
+        storyId:this.props.storyId,
+        response: '',
         conditionsChecked: false,
         error: false,
         errorContent:{
@@ -21,10 +22,9 @@ class ShareStory extends React.Component {
     handleCheckBox = (e) => this.setState({conditionsChecked: !this.state.conditionsChecked});
     handleSubmit = () => {
         if (this.state.conditionsChecked) {
-            console.log({story:this.state.story,isModerated:true});
-            this.props.addStory({story:this.state.story,isModerated:true});
+            console.log({storyId:this.state.storyId,response:this.state.response,isModerated:true});
+            this.props.addResponse({storyId:this.state.storyId,response:this.state.response,isModerated:true});
             this.setState({error: false});
-            this.props.history.push('/');
             return
         }
         this.setState({error: true})
@@ -32,17 +32,17 @@ class ShareStory extends React.Component {
 
     };
 
-    render() {
-        // console.log(this.props.history);
-        return (
+    render(){
+        // console.log(this.props);
+        return(
             <div>
-                <Segment>
+                <Segment style={{marginTop:'1em'}}>
                     <Form onSubmit={this.handleSubmit} error={this.state.error} >
 
-                        <Form.Field style={{minHeight:'15em'}} control={TextArea} name='story' value={this.state.story} label='About'
+                        <Form.Field style={{}} control={TextArea} name='response' value={this.state.story} label='Response'
                                     onChange={this.handleChange} placeholder='Tell us more about you...'/>
                         {/*<Form.Field control={Checkbox} checked={this.state.conditionsChecked}*/}
-                                    {/*onChange={this.handleCheckBox} label={termCondition}/>*/}
+                        {/*onChange={this.handleCheckBox} label={termCondition}/>*/}
                         <Form.Field>
                             <Checkbox checked={this.state.conditionsChecked} onChange={this.handleCheckBox} style={{display: 'inline-block'}} />
                             <label style={{display: 'inline-block', marginLeft:'10px'}}>I agree with the <Link to={'/'}>Terms & Condition</Link></label>
@@ -61,7 +61,7 @@ class ShareStory extends React.Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-    addStory : (story) => dispatch(addStory(story)),
+    addResponse : (story) => dispatch(addResponse(story)),
 });
 
-export default connect(null,mapDispatchToProps)(ShareStory);
+export default connect(null,mapDispatchToProps)(ResponseForm);

@@ -22,7 +22,7 @@ class MobileContainer extends Component {
         return (
             <Responsive {...Responsive.onlyMobile} minWidth={250}>
                 <Sidebar.Pushable>
-                    <Sidebar as={Menu} animation='uncover' inverted vertical visible={sidebarOpened}>
+                    <Sidebar as={Menu} animation='overlay' inverted vertical visible={sidebarOpened}>
                         <Menu.Item onClick={this.handleToggle} as={Link} to={'/'}
                                    active={this.props.location.pathname === '/'}>Home</Menu.Item>
                         <Menu.Item onClick={this.handleToggle} as={Link} to={'/quotes'}
