@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="347e62ff-d045-4a68-a6f0-dee89db59929" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/responses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/responses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainDashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/moderator/QuotesSharePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/moderator/QuotesSharePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responses/ResponseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responses/ResponseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responses/ResponsesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responses/ResponsesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responses/ResponsesListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responses/ResponsesListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responses/ResponsesMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responses/ResponsesMain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responses/StoryDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responses/StoryDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responsive/DesktopContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responsive/DesktopContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responsive/MobileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responsive/MobileContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responsive/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responsive/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/responsive/TabletContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/responsive/TabletContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/stories/ShareStory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/ShareStory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/stories/StoriesList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/StoriesList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/stories/StoriesListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stories/StoriesListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/responses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/responses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routers/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routers/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selectors/stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectors/stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/moderator/QuoteDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/moderator/QuoteDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/moderator/QuotesListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/moderator/QuotesListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/quotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/quotes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selectors/quotes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/selectors/quotes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="825">
-      <file leaf-file-name="ShareStory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/stories/ShareStory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2574">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StoriesListItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/stories/StoriesListItem.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,14 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/responsive/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="192">
               <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quotes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/reducers/quotes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -112,8 +95,8 @@
       <file leaf-file-name="filters.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/filters.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="-365">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -185,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/components/responses/ResponsesList.js" />
         <option value="$PROJECT_DIR$/src/components/responses/ResponseForm.js" />
         <option value="$PROJECT_DIR$/src/components/stories/login.js" />
-        <option value="$PROJECT_DIR$/src/reducers/quotes.js" />
         <option value="$PROJECT_DIR$/src/actions/quotes.js" />
         <option value="$PROJECT_DIR$/src/components/moderator/QuotesListItem.js" />
         <option value="$PROJECT_DIR$/src/components/moderator/QuotesSharePage.js" />
@@ -193,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/routers/AppRouter.js" />
         <option value="$PROJECT_DIR$/src/components/responsive/Navbar.js" />
         <option value="$PROJECT_DIR$/src/actions/filters.js" />
-        <option value="$PROJECT_DIR$/src/reducers/filters.js" />
         <option value="$PROJECT_DIR$/src/components/responses/StoryDisplay.js" />
         <option value="$PROJECT_DIR$/src/components/stories/Login.js" />
         <option value="$PROJECT_DIR$/src/components/stories/Terms.js" />
@@ -205,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/components/stories/StoriesList.js" />
         <option value="$PROJECT_DIR$/src/components/responsive/MobileContainer.js" />
         <option value="$PROJECT_DIR$/src/components/responsive/Footer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/filters.js" />
+        <option value="$PROJECT_DIR$/src/reducers/quotes.js" />
       </list>
     </option>
   </component>
@@ -402,12 +385,12 @@
       <workItem from="1524207753469" duration="2221000" />
       <workItem from="1524387611029" duration="3926000" />
       <workItem from="1524488502100" duration="239000" />
-      <workItem from="1524567301170" duration="1531000" />
+      <workItem from="1524567301170" duration="1631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160688000" />
+    <option name="totallyTimeSpent" value="160788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="3200" height="1800" extended-state="6" />
@@ -600,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/quotes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/quotes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -700,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/responses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -764,11 +733,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/responsive/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="192">
           <caret line="11" column="122" selection-start-line="11" selection-start-column="122" selection-end-line="11" selection-end-column="122" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/quotes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

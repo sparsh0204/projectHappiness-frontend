@@ -11,6 +11,7 @@ const filtersReducer = (state = filtersReducerDefaultState, action) => {
                 ...state,
                 text: action.text
             };
+
         case 'PASSWORD_ACCEPTED':
             return {
                 ...state,
@@ -31,6 +32,7 @@ const filtersReducer = (state = filtersReducerDefaultState, action) => {
                 ...state,
                 condition: false
             };
+
         default:
             return state;
     }

@@ -5,8 +5,16 @@ const quotesReducerDefaultState = [
 ];
 const quotesReducer = (state = quotesReducerDefaultState, action) => {
     switch (action.type){
+
         case 'SET_QUOTES':
             return action.quotes;
+
+        case 'ADD_QUOTE':
+            return [
+                ...state,
+                action.quote
+            ];
+
         default:
             return state;
     }

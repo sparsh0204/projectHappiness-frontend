@@ -1,6 +1,7 @@
 export const setTextFilter = (text = '') => ({
     type: 'SET_TEXT_FILTER',
     text
+
 });
 
 export const passwordEntered = () => ({
@@ -17,4 +18,5 @@ export const resetCondition = () => ({
 
 export const resetPasswordCondition = () => ({
     type: 'RESET_PASSWORD_CONDITION'
+
 });
