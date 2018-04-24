@@ -11,8 +11,6 @@ class MainDashboard extends React.Component {
 
         return (
             <div>
-                this is the main dashboard
-                <br/>
                 <StoriesList/>
             </div>
         )

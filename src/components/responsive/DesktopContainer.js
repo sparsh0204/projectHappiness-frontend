@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 import {Container, Menu, Responsive, Visibility,} from 'semantic-ui-react'
 import Navbar from './Navbar';
+import Footer from "./Footer";
 
 
 class DesktopContainer extends Component {
@@ -19,7 +20,8 @@ class DesktopContainer extends Component {
             <Responsive {...Responsive.onlyComputer} >
                 <Visibility once={false} onBottomPassed={this.showFixedMenu} onBottomPassedReverse={this.hideFixedMenu}>
                     <Menu
-                        fixed={fixed && 'top'}
+
+                        fixed={fixed ? 'top':null}
                         inverted
                         pointing={!fixed}
                         size='large'
@@ -27,9 +29,10 @@ class DesktopContainer extends Component {
                         <Navbar/>
                     </Menu>
                 </Visibility>
-                <Container style={{marginTop: '1.5em'}}>
+                <Container style={{marginTop: '1.5em', marginLeft:'1.5em', marginRight:'15em', marginBottom:'10em'}}>
                     {children}
                 </Container>
+                <Footer/>
             </Responsive>
         )
     }

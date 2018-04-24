@@ -11,9 +11,12 @@ import 'semantic-ui-css/semantic.min.css';
 const store = configureStore();
 
 const App = () => (
+    <div style={{backgroundColor:'#f5f5f5',minHeight: '100vh',color:'#363531'}}>
     <Provider store={store}>
+
             <AppRouter/>
     </Provider>
+    </div>
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));

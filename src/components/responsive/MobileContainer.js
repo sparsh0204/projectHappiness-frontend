@@ -2,6 +2,8 @@ import PropTypes from 'prop-types'
 import React, {Component} from 'react'
 import {Button, Container, Icon, Menu, Responsive, Sidebar,} from 'semantic-ui-react'
 import {Link, withRouter} from "react-router-dom";
+import Search from "./Search";
+import Footer from "./Footer";
 
 class MobileContainer extends Component {
     state = {};
@@ -50,10 +52,14 @@ class MobileContainer extends Component {
                                 </Menu.Item>
                             </Menu>
                         </Container>
-
                         <Container style={{marginTop: '4em'}}>
+                            <Search/>
+                            {/*<MobileSearch/>*/}
+                        </Container>
+                        <Container style={{marginBottom:'5em', marginTop: '2em', marginLeft:'0em'}}>
                             {children}
                         </Container>
+                        <Footer/>
                     </Sidebar.Pusher>
                 </Sidebar.Pushable>
             </Responsive>
